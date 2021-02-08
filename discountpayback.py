@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd 
 import jinja2
 
+#This is a simple calculator to solve some net present value problems in a project management class.
+
 
 def discount_factor_list_maker(required_ror, inflation_rate, years):
 	dis_fact = 1 + required_ror + inflation_rate
